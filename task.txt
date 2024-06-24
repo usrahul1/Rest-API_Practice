@@ -1,0 +1,17 @@
+Rest API
+
+GET - 
+/users - Return only user names 
+/api/users - Return all the user data
+
+-/api/users/1 - Return data of user with ID 1
+-/api/users/2 - Return data of user with ID 2
+
+Dynamic Path parameters:
+/api/users/:id
+
+POST - /api/users - Create new user 
+
+PATCH - /api/users/1 Update details of user with ID 1
+
+Delete - /api/users/id - Delete the details of user with ID
