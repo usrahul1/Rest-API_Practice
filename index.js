@@ -13,7 +13,7 @@ app.get("/users", (req, res) => {
     res.send(html)
 })
 
-//Routes
+//Routes - all
 app.get("/api/users", (req, res) => {
     return res.json(users)
 })
